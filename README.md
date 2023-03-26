@@ -1,5 +1,8 @@
 # booking-node-api
 
+Node JS
+Javascript
+Express JS
 
 ## Environmental Variables
 
