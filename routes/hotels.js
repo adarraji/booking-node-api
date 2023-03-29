@@ -6,9 +6,9 @@ const router = express.Router();
 
 
 router.post("/", createHotel);
-router.put("/:id", updateHotel(id));
-router.delete("/:id", deleteHotel(id));
-router.get("/:id", getHotel(id));
+router.put("/:id", updateHotel);
+router.delete("/:id", deleteHotel);
+router.get("/:id", getHotel);
 router.get("/", getHotels);
 
 export default router;
