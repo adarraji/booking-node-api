@@ -26,12 +26,26 @@ mongoose.connection.on("disconnected", () => {
 //     console.log("mongoDB connected")
 // })
 
+
 app.use(express.json());
 
 app.use("/api/auth", authRoute);
 app.use("/api/users", usersRoute);
 app.use("/api/hotels", hotelsRoute);
 app.use("/api/rooms", roomsRoute);
+
+
+app.use((err, req, res, next) => {
+    const erroStatus = err.status || 500
+    const errorMessage = err.message || "Something went wrong!"
+    return res.status(erroStatus).json({
+        sucess: false,
+        status: err.status,
+        message: err.message,
+        stack: err.stack,
+    })
+})
+
 
 app.listen(8800, () => {
     connect()
