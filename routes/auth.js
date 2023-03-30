@@ -1,12 +1,7 @@
 import express from "express";
+import { resgiter } from "../controllers/auth";
 const router = express.Router();
 
-router.get("/", (req, res) => {
-    res.send("Hello, This is auth endpoint")
-})
-
-router.get("/register", (req, res) => {
-    res.send("Hello, This is register endpoint")
-})
+router.get("/register", resgiter)
 
 export default router
