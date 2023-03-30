@@ -3,6 +3,7 @@
 Node JS
 Javascript
 Express JS
+Bvrypt JS
 
 ## Environmental Variables
 
