@@ -4,6 +4,8 @@ Node JS
 Javascript
 Express JS
 Bvrypt JS
+JSON Web Token
+
 
 ## Environmental Variables
 
