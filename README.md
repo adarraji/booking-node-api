@@ -4,6 +4,7 @@ Node JS
 Javascript
 Express JS
 Bvrypt JS
+Cookie parser
 JSON Web Token
 
 
