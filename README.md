@@ -1,5 +1,12 @@
 # Node Booking REST API
 
+Backend server for [React Booking Web application](https://github.com/adarraji/booking-react) and [React Booking Admin Dashboard](https://github.com/adarraji/booking-admin).
+
+Created using Node.js and MongoDB. This server inlcudes Node.js CRUD operations, fetching with queries and MongoDB methods. Also to provide security, This server uses JSON Web Token and verify user and admin requests. 
+
+This is one of three parts of full stack Booking app. You can find the React Booking Web application [here](https://github.com/adarraji/booking-react) and React Booking Admin Dashboard [here](https://github.com/adarraji/booking-admin)
+
+
 To run the application
 
 1. Clone this repo
